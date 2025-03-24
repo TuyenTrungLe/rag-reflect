@@ -7,6 +7,8 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.9,<4.0"
+packages = [{ include = "graph" }]
+
 dependencies = [
     "beautifulsoup4 (>=4.13.3,<5.0.0)",
     "langchain (>=0.3.21,<0.4.0)",
