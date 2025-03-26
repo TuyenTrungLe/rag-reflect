@@ -5,6 +5,10 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 from langchain_openai import AzureChatOpenAI
 from numpy.lib.recfunctions import structured_to_unstructured
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 llm = AzureChatOpenAI(
         api_key=os.getenv("AZURE_OPENAI_API_KEY"),
         azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
