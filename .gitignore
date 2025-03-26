@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Env file
+.env
+
+# VSCode / JetBrains IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Python Poetry
+poetry.lock
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Static build artifacts (optional)
+build/
+dist/
+*.egg-info/
